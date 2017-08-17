@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">RObotzi</string>
+    
+    <string name="notification_message">A apărut un nou episod RObotzi!</string>
+    <string name="footer">Aluxian Apps</string>
+    <string name="search_hint">Caută un episod</string>
+    <string name="loading">Se încarcă&#8230;</string>
+    
+    <!-- Activities -->
+    <string name="activity_main">RObotzi</string>
+    <string name="activity_settings">Setări</string>
+    
+    <!-- Actionbar -->
+    <string name="action_search">Căutare</string>
+    <string name="action_download_walls">Descarcă toate</string>
+    <string name="action_rate">Scrie Review</string>
+    <string name="action_settings">Setări</string>
+    
+    <!-- New items -->
+    <string name="new_ep_single">A apărut un episod nou!</string>
+    <string name="new_ep_multiple">Au apărut /n/ episoade noi!</string>
+    
+    <string name="new_wall_single">A apărut un wallpaper nou!</string>
+    <string name="new_wall_multiple">Au apărut /n/ wallpapere noi!</string>
+    
+    <!-- Status -->
+    <string name="status_ep_download_started">Se descarcă episodul /i/&#8230;</string>
+    <string name="status_ep_deleted">Episodul /n/ a fost șters!</string>
+    
+    <string name="status_wall_download_started">Se descarcă wallpaperul /i/&#8230;</string>
+    <string name="status_wall_deleted">Wallpaperul /n/ a fost șters!</string>
+    <string name="status_walls_download_all_started">Se descarcă /n/ wallpapere&#8230;</string>
+    
+    <!-- Errors -->
+    <string name="error_general">Eroare. Încearca din nou.</string>
+    <string name="error_download_not_available">Episodul nu este înca disponibil pentru descărcare. Încearcă peste câteva ore.</string>
+    <string name="error_invalid_dir">Directorul ales pentru descărcare este invalid. Încearcă din nou.</string>
+
+    <!-- Set wallpaper -->
+    <string name="set_wallpaper_successful">Wallpaper setat</string>
+    <string name="set_wallpaper_error">Eroare. Încearca din nou</string>
+    
+    <!-- EP context menu -->
+    <string name="context_menu_play_hd">Play (720p)</string>
+    <string name="context_menu_play_sd">Play (480p)</string>
+    <string name="context_menu_delete_hd">Șterge (720p)</string>
+    <string name="context_menu_delete_sd">Șterge (480p)</string>
+    <string name="context_menu_download_hd">Descarcă (720p)</string>
+    <string name="context_menu_download_sd">Descarcă (480p)</string>
+    
+    <!-- Walls context menu -->
+    <string name="context_menu_wall_open">Deschide</string>
+    <string name="context_menu_wall_set">Setează ca wallpaper</string>
+    <string name="context_menu_wall_download">Descarcă</string>
+    <string name="context_menu_wall_delete">Șterge</string>
+
+    <!-- Rating dialog -->
+    <string name="rating_title">RObotzi</string>
+    <string name="rating_message">Iți place aplicația? Acordă-i 5 stele în Play Store și scrie un comentariu drăguț! :)</string>
+    
+    <string name="rating_button_positive">OK</string>
+    <string name="rating_button_negative">Niciodată</string>
+    <string name="rating_button_neutral">Nu acum</string>
+    
+    <!-- Download all walls dialog -->
+    <string name="download_all_walls_title">Descarcă toate wallpaperele</string>
+    <string name="download_all_walls_message">Dorești să descarci toate wallpaperele?</string>
+    
+    <string name="download_all_walls_button_1">DA</string>
+    <string name="download_all_walls_button_2">NU</string>
+    
+    <string name="download_all_walls_error">Opțiune indisponibilă pentru dispozitivul tău.</string>
+    <string name="button_cancel">Anulare</string>
+
+</resources>

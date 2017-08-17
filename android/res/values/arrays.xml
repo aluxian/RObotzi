@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listTypeRaw">
+        <item>PICS</item>
+        <item>TEXT</item>
+    </string-array>
+    
+    <string-array name="listTypeReadable">
+        <item>Listă cu imagini</item>
+        <item>Listă simplă</item>
+    </string-array>
+    
+    <string-array name="downloadQualityReadable">
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    
+    <string-array name="downloadQualityRaw">
+        <item>HD (720p)</item>
+        <item>SD (480p)</item>
+    </string-array>
+</resources>

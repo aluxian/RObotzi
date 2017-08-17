@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+    <com.creativemonkeyz.robotzi.PreviewImage
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:adjustViewBounds="true"
+            />
+
+    <TextView
+            android:id="@+id/episode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/preview"
+            android:textColor="#444"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+    <TextView
+            android:id="@+id/season"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/preview"
+            android:textColor="#bababa"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_alignParentRight="true"
+            />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Notificări episoade" >
+        <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="NOTIF_EP"
+                android:title="Notificări episoade noi" />
+
+        <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="DL_EP"
+                android:title="Descărcare automată" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notificări wallpapere" >
+        <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="NOTIF_WL"
+                android:title="Notificări wallpapere noi" />
+        <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="DL_WL"
+                android:title="Descărcare automată" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Foldere" >
+        <Preference
+            android:key="DIR_EP"
+            android:title="Descărcare episoade" />
+        <Preference
+            android:key="DIR_WL"
+            android:title="Descărcare wallpapere" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Info" >
+        <Preference
+            android:key="INFO_VERSION"
+            android:summary="RObotzi 2.0.0"
+            android:title="Versiune aplicație" />
+        <Preference
+            android:key="INFO_COPYRIGHT"
+            android:summary="Toate episoadele și imaginile din această aplicație aparțin CreativeMonkeyz.COM"
+            android:title="Copyright" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

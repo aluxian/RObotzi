@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionLayout="@layout/search_widget"
+        android:icon="@drawable/ic_menu_search"
+        android:showAsAction="ifRoom|withText|collapseActionView"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_rate"
+        android:showAsAction="never"
+        android:title="@string/action_rate"/>
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
